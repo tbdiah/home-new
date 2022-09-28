@@ -99,7 +99,6 @@ a, a:link, a:visited {
 .hp_question {
 	border: 1px solid #333333;
 	border-left: 12px solid #333;
-	height: 30px;
 	width: 90%;
 	padding: 25px;
 	font-size: 18px;
@@ -130,7 +129,6 @@ a, a:link, a:visited {
 .lime_green {
 	border: 1px solid #A7BF39;
     border-left: 12px solid #A7BF39;
-	height: 50px
 
 }
 
