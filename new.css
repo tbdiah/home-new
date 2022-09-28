@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*palette:
+green: #008C84
+dark_green: #3E4749
+lime_green: #A7BF39
+orange: #FAA000
+burnt_orange:#D44106
+purple: #0E256A
+gray: #879499
+
+
+*/
+body {
+  font-family: Futura PT Book;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1rem;
+  line-height: 1.4em;
+  color: #212721;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+h1 {
+	font-size: 33px;
+	font-family: Futura PT heavy;
+	line-height: 40px;
+	margin-bottom: 40px;
+}
+
+h2 {
+font-size: 22px;
+font-family: Futura PT heavy;
+}
+
+#bg {
+	background:url(https://www.tbdiah.org/wp-content/uploads/2022/08/africa-min.png) no-repeat; 
+	background-size: cover; 
+	height: 600px; 
+	width: 100%;
+	display: block;
+		}
+
+.container {
+  position: absolute;
+  top: 280px;
+  right: 10px;
+  padding: 40px;
+  width: 700px;
+  min-width: 100px;
+  color: #000;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.60);
+  height: 270px;
+text-align: center;
+}
+
+.btn_burnt_orange {
+	background: #D44106;
+}
+
+.btn_dark_green{
+	background: #3E4749;
+}
+
+.btn_green{
+	background: #008C84;
+}
+
+.content {
+display: block;
+margin: 20px 40px;
+}
+
+
+a, a:link, a:visited {
+	color: #D44106;
+	text-decoration: none;
+}
+
+#right a, a:link, a:visited {
+  color: #D44106;
+  font-size: 18px;
+}
+
+.btn a, a:link, a:visited {
+	color: #fff;
+	padding: 12px 20px;
+	margin-right: 12px;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.hp_question {
+	border: 1px solid #333333;
+	border-left: 12px solid #333;
+	height: 30px;
+	width: 90%;
+	padding: 25px;
+	font-size: 18px;
+	font-family: Futura PT Book;
+}
+
+
+.hp_question img {
+	width: 45px;
+	height: auto;
+	float: right;
+	margin-right: 15px;
+	margin-left: 20px;
+}
+
+.green {
+	border: 1px solid #008C84;
+    border-left: 12px solid #008C84;
+	
+}
+
+.dark_green {
+	border: 1px solid #3E4749;
+    border-left: 12px solid #3E4749;
+
+}
+
+.lime_green {
+	border: 1px solid #A7BF39;
+    border-left: 12px solid #A7BF39;
+	height: 50px
+
+}
+
+.orange {
+	border: 1px solid #FAA000;
+    border-left: 12px solid #FAA000;
+
+}
+
+.burnt_orange {
+	border: 1px solid #D44106;
+    border-left: 12px solid #D44106;
+
+}
+
+.purple {
+	border: 1px solid #0E256A;
+    border-left: 12px solid #0E256A;
+	}
+
+.gray {
+	border: 1px solid #879499;
+    border-left: 12px solid #879499;
+}
+
+
+ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 15px;
+  background-image:url("chevron.svg");
+  background-position: 10px 10px;
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  margin-bottom: 12px;
+}
+
+#header{
+	display: block;
+}
+#footer {
+	border-top: 14px solid #333;
+	background-color: #eee;
+	padding: 50px;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 800px)
+{
+  .container{
+  width: 100%;
+  position: absolute;
+  top: 180px;
+   right: 0px;
+  padding: 0px;
+  height: 200px;
+
+}
+ .btn a, a:link, a:visited {
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+}
+	.content {
+	margin: 15px;
+	}	
+	
+#bg {
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+  display: block;
+}	
+	h1 {
+		font-size: 22px;
+		line-height: 28px;
+		margin-bottom: 10px;
+	}
+	
+	
+	}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 810px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	
+	 .btn a, a:link, a:visited {
+	font-size: 12px;
+}
+}
