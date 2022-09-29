@@ -257,7 +257,7 @@ ul li {
 	
 	}
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 588 PIXELS */
 
 @media only screen and (max-width: 588px) {
 	
@@ -300,15 +300,19 @@ ul li {
 	}
 	
 	#bg {
-  height: 350px;
+  height: 310px;
 }
 	
 }
 
 @media only screen and (max-width: 389px) {
 	
-		.btn a, a:link, a:visited {
+	.btn a, a:link, a:visited {
 	font-size: 12px;
 	padding: 12px;
+}
+	
+	#bg {
+  height: 340px;
 }
 }
