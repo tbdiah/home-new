@@ -35,8 +35,8 @@ h1 {
 }
 
 h2 {
-font-size: 22px;
-font-family: Futura PT heavy;
+    font-size: 22px;
+	font-family: Futura PT heavy, futura-pt-bold, helvetica, san-serif;
 }
 
 #bg {
@@ -87,6 +87,7 @@ a, a:link, a:visited {
 #right a, a:link, a:visited {
   color: #D44106;
   font-size: 18px;
+  padding: 12px;
 }
 
 .btn a, a:link, a:visited {
