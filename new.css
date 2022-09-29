@@ -155,12 +155,14 @@ a, a:link, a:visited {
 
 
 ul {
-  padding-left: 10px;
+  padding-left: 00px;
   list-style-type: none;
+  text-indent: -15px;
+  margin-left: 5px;
 }
 
 ul li {
-  padding-left: 15px;
+  padding-left: 25px;
   background-image:url("chevron.svg");
   background-position: 10px 10px;
   background-size: 10px 10px;
