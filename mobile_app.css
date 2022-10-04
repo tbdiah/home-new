@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*palette:
+green: #008C84
+dark_green: #3E4749
+lime_green: #A7BF39
+orange: #FAA000
+burnt_orange:#D44106
+purple: #0E256A
+gray: #879499
+
+*/
+
+body {
+    --ion-color-primary: #0E256A;
+
+    /* RGB list of the color */
+    --ion-color-primary-rgb: 0,102,0;
+
+    /* Black or white, depending on which color gives more contrast */
+    --ion-color-primary-contrast: #ffffff;
+
+    /* RGB version of the contrast color */
+    --ion-color-primary-contrast-rgb: 255,255,255;
+
+    /* Slightly darker color. (mix 12% of black) */
+    --ion-color-primary-shade: #005a00;
+
+    /* Slightly lighter color. (mix 10% of white) */
+    --ion-color-primary-tint: #1a751a;
+}
