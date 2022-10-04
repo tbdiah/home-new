@@ -30,3 +30,7 @@ body {
     /* Slightly lighter color. (mix 10% of white) */
     --ion-color-primary-tint: #1a751a;
 }
+
+body {
+    --core-header-toolbar-background: #0E256A;
+}
